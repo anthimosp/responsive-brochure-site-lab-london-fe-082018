@@ -1,31 +1,52 @@
 header{
   color:#8cf442;
   overflow:hidden;
-  font-size:40px;
-  position:fixed;
-  background-color:#f441ca;
-  width:80%;
+  font-size: 24px;
+  background-image: linear-gradient(-90deg,#edefe3,#9df9f2);
+  width:100%;
   font-family:"Lucida Sans Unicode";
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 100px;
+  align-items: center;
+  margin-left: 0px;
 }
 
-.backgound {
-  height:100%;
+#contact{
+  font-family: "Lucida Sans Unicode";
+  text-decoration: none;
+  color:black;
+}
+
+#logo{
+  width: 200px;
+  height: 120px;
+  border-style: none;
+}
+
+body {
+  background-image: url("http://www.allsportspk.com/wp-content/uploads/2018/05/Big-Wave-Surfing.jpg");
+  background-position: center;
+  background-size: cover;
+  margin: 0px;
 }
 
 img{
   border-width: 8px;
   border-color: black;
-  border-style:solid;
+  border-style: solid;
   width: 600px;
   height: 250px;
   margin: 30px;
-  vertical-align: baseline;
 }
 
 .flex-container {
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 footer{
